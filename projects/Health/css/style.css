@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(13, 160, 197)
+}
+.one{
+    /* padding: 10px; */
+    font-size: 30px;
+    color: white;
+}
+.icon{
+    
+    margin-left: 300px;}
+    .blue{ 
+        width: 100%;
+        background-size: cover;
+        
+        height: 740px;
+        color:white;
+        background-image: url(../css/images/img01.png);
+        /* background-color:rgb(14, 121, 148) ; */
+    }
+    .at{
+        padding-top:20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .your{
+        font-size: 27px;
+    }
+    .lorem{
+        text-align: justify;
+       
+    }
+    .but{
+        border-radius: 30px;
+        color: white;
+        padding: 6px;
+        font-size: 13px;
+        width: 130px;
+        background-color:aqua ;
+    }
+    .but:hover{
+        background-color:  rgb(14, 121, 148)
+    }
+    .but1{
+        font-size: 13px;
+        width: 130px;
+        border-radius: 20px;
+        color: rgb(239, 246, 248);
+        padding: 6px;
+        background-color: rgb(14, 121, 148)
+    }
+    .but1:hover{
+        background-color: aqua;
+    }
+    .img1{
+        background-image: url(../css/images/img02.png);
+        background-size:cover;
+        width: 200px;
+        height: 180px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    /* .tv{
+        width:70%;
+        height: 200px;
+        margin-left: 50px;
+    } */
+    .girl{
+    
+        margin-top: 14px;
+        width:80%;
+        height: 160px;
+        margin-left: 38px;
+    }
+    .pat{
+        margin-top: 30px;
+    }
+    .img2{margin-top: 150px;
+        background-color:  rgb(14, 121, 148)
+    }
+   
+    .col{
+        margin-top: 30px;
+        border-radius: 10px;
+        text-align: center;
+        opacity: 0.5px;
+       box-shadow: -2px -2px 5px 10px rgb(233, 228, 228);
+    }
+    
+.six{
+    /* margin-top: 30px;  */
+    width: 100%;
+    height:330px;
+}
+
+.middle{
+    width: 100%;
+    height:2000px;
+    text-transform: capitalize;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+
+
+}
+.get{font-size:15px;
+    
+}
+.way{
+    margin-top: 80px;
+}
+.zero{
+    color: grey;
+}
+/* .focus{
+    text-align: justify; */
+
+ .buut3{
+    margin-left: 100px;
+    border-radius:20px;
+    background-color: rgb(194, 187, 187);
+    padding: 6px;
+    text-align: center;
+   }
+
+.buut3:hover{
+    background-color: rgb(37, 148, 192);
+}
+.design{
+    width: 100%;
+    background-size: cover;
+}
+.mobile{
+    background-image: url(../css/images/img14.png);
+}
+.code{
+    margin-left: 10px;
+}
+
+.footer{
+    background-color: rgb(221, 237, 243);
+}
+.map{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+@media (min-width:768px){
+    
+.blue{
+    height: 500px;
+    /* height:300px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+}
+
+.your{
+    padding-top: 10px;
+}
+.at{
+    margin:30px;
+}
+.img1{
+    width: 1500px;
+    height: 280px;
+    /* width:100%;
+    height:300px; */
+    /* margin-left: 40px; */
+    margin-top: 40px;
+    margin-right:40px ;
+}
+.girl{
+    margin-top: 20px;
+    margin-left: 50px;
+    height:240px; 
+    width:80% ;  
+}
+.six{
+    height:200px;
+}
+
+.middle{
+        width: 100%;
+        height:1300px;
+}
+
+.map{
+    width: 100%;
+    height: 350px;
+}
+.one{
+    margin-left: 60px;
+}
+
+.icon{
+    
+    margin-left: 800px;}
+    
+
+}
+
+
+@media (min-width:992px){
+
+    .your{
+        padding-top: 60px;
+    }
+.lorem{
+    padding-top: 30px;
+    padding-left: 2px;
+    /* padding-right: 220px; */
+}
+.img1{
+    margin-top: 100px;
+}
+.pat{
+    margin-top: 50px;
+}
+
+}
+@media (min-width:1200px){
+.feature{
+    margin-top: 80px;
+}
+}

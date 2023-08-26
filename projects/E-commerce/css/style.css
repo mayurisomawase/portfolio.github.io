@@ -1,0 +1,182 @@
+.img{
+    width:100px;
+    height: 20px;
+    margin-left: 20px;
+}
+.icon{margin-left:10px;
+
+}
+#btn{
+    color: white;
+   background-color:rgb(28, 141, 28); 
+   margin-left: 75px;
+   border-radius: 5px;
+   padding:2px;
+}
+.background{
+    width:100%;
+    /* height:360px; */
+   height: 370px;
+    background-size: cover;
+    background-color: rgb(205, 232, 243);
+    background-image: url(../css/images/bg.png);
+}
+.fast{
+    margin-top: 50px;
+
+}
+.p{
+    color:rgb(28, 141, 28); 
+}
+.is{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#one{
+    background-color: rgb(78, 161, 78);
+    color: white;
+    border-radius: 2px;
+    
+    margin-right: 10px;
+}
+#two{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+.images{
+    height: 110px;
+    gap:20px;
+    display:none;
+    background-color: rgb(205, 232, 243);
+}
+.three{
+   border-radius: 20px;
+}
+.four{
+    border-radius: 20px;
+ }
+ .five{
+    border-radius: 20px;
+ }
+ .six{
+    border-radius: 20px;
+    height: 240px;
+    margin-bottom: 200px;
+ }
+ .seven{
+    border-radius: 20px;
+ }
+ .eight{
+    border-radius: 20px;
+ }
+ .nine{
+    border-radius: 20px;
+ }
+ .feature{
+    margin-top: 150px;
+ }
+ .come{
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .girl{
+    background-size: cover;
+    background-image: url(../css/images/bg.png);
+    background-color: rgb(228, 238, 241);
+    width:100%;
+    height: 350px;
+}
+.phone{
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+.qr{
+    color:rgb(70, 141, 70)
+}
+.bor{
+    border:2px solid black;
+    border-radius: 10px;
+}
+.pa{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-size: cover;
+    background-image: url(../css/images/bg.png);
+    background-color: rgb(228, 238, 241);
+}
+.pages{
+    margin-left: 40px;
+}
+.footer{
+    height: 120px;
+    background-color: rgb(36, 36, 36);
+}
+.last{
+    width: 30%;
+    height: 60px;
+    padding-top: 20px;
+}
+.all{
+    color: white;
+    padding-top: 20px;
+}
+.six{
+    margin-left: 90px;
+}
+@media(min-width:768px){
+    .pages{
+        margin-left: 80px;
+    }
+    .six{
+        margin-left: 320px;
+    }
+    .phone{
+        margin-left: 280px;
+    }
+}
+@media(min-width:992px){
+    .six{
+        margin-left: 0px;
+    }
+    .phone{
+        margin-left: 390px;
+    }
+}
+
+@media(min-width:1200px){
+    .is{
+        margin-left: 230px;
+        margin-right: 230px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .feature{
+        margin-top: 300px;
+    }
+    .six{
+        height: 380px;
+    }
+    .girl{
+        height: 450px;
+        padding: 10px;
+    }
+    .qr{
+        margin-top: 50px;
+
+    }
+    .pa{
+        height: 530px;
+    }
+    .pages{
+        margin-top: 60px;
+    }
+    .last{
+        width: 20%;
+        height: 60px;
+}
+.phone{
+    margin-left: 560px;
+}
+}

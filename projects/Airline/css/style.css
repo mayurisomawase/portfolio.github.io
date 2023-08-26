@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.nav-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+.list{
+    margin-top: 10px;
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+    display: none;
+    
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    color: red;
+}
+
+.here{
+    background-image: url(../images/offer_img01.jpg);
+    background-size:cover;
+    width:100%;
+    /* text-align: center; */
+    height: 400px;
+    width:100%;
+
+  
+}
+
+.text2{
+    font-size: 25px;
+    margin-top: 20px;
+    padding-top: 60px;
+    /* color:white */
+}
+/* .text3{
+    color: white;
+} */
+
+.buttonnn{
+border-radius: 10px;
+background-color: rgb(240, 198, 11);
+height: 40px;
+width: 45%;
+margin-left: 5%;
+
+
+}
+.grey{
+    width: 100%;
+    height: 2950px;
+    background-color: rgb(224, 224, 240)
+}
+.p1{
+    float: right;
+}
+.three{
+padding-top: 40px;
+margin-left: 10px;
+}
+.three1{padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    height: 100px;
+    width:280px;
+    background-color: white;
+    display: flex;
+    border-radius: 5%;
+}
+.th{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+.we{
+    margin-left: 20px;
+}
+.offer{
+    color: rgb(255, 166, 0);
+}
+.best{
+    color: rgb(54, 1, 54);
+  /* float: right;   */
+}
+
+.text{
+    text-align: center;
+}
+.girl{
+    height: 360px;
+    border-radius: 5%;
+    background-color: white;
+    margin-bottom: 20px;
+    border:2px,solid white;
+    box-shadow: -1px -1px 10px 11px rgb(166, 166, 240);
+    
+}
+.dhaka{
+    margin-left: 20px;
+}
+.img{
+    height:175px;
+    width: 100%;
+    border-radius: 5%;
+}
+.margin{
+   margin-left: 15px;
+    margin-top: 10px;
+}
+.plane{
+    height: 360px;
+    border-radius: 5%;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border:2px,solid white;
+    box-shadow: -1px -1px 10px 11px rgb(166, 166, 240);
+}
+
+.airo{
+    width:100%;
+    border-radius: 5%;
+    height: 175px;
+}
+.purple{
+    color: white;
+    background-image: url(../images/destination_bg.jpg);
+    background-size: cover;
+    height:630px;
+}
+.but1{
+    width: 150px;
+    height: 30px;
+    margin-top: 70px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 15px;
+    background-color: rgb(255, 187, 0);
+}
+.h2{
+    margin-left: 15px;
+}
+.get{
+    margin-left: 15px;
+}
+.orange{
+    color: orange;
+}
+.five{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.happy{
+    margin-top: 5px;
+    margin-left:15px;
+    color:rgb(48, 2, 48);
+}
+.user{
+    margin-left: 50px;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.five1{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius:10px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+.user1{
+    margin-left: 75px;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+.but4{
+    color:white;
+    border-radius:30px;
+    background-color: orange;
+    padding:2px;
+    width:100px;
+    margin-left: 15px; 
+}
+.discover{
+    margin-left: 15px;
+}
+.fly{
+    width: 100%;
+    height:350px;
+    background-color:rgb(237, 237, 248)
+}
+.flynext{
+   padding-top: 40px;
+    text-align: center;
+}
+.threediv{
+    margin-left: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+.flight{
+    margin-top: 20px;
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+}
+.car{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+}
+.taxi{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+
+}
+.clas{
+    border-radius: 5%;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width:90%;
+    height: 420px;
+    background-color: white;
+}
+.slider{
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+}
+.date{
+    margin-top: 20px;
+    text-align: center;
+}.nine{
+    font-size: 10px;
+}
+.small{
+    width:50px;
+    height: 25px;
+}
+
+
+.eco{
+    margin-left: 20px;
+    font-size: 13px;
+}
+.color{
+    /* height: 200px;
+    width: 100%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin: auto 0; */
+    background-color: rgb(83, 1, 83);
+    
+}
+.color1{
+    /* padding:30px; */
+    /* padding:15px; */
+    width: 50px;
+}
+.air{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(230, 220, 220);
+}
+.why{
+    padding-top: 30px;
+    color: orange;
+    font-size: 12px;
+}
+.service{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 30px;
+
+}
+.ppp{
+    color: blueviolet;
+}
+.pre{
+    color: rgb(71, 1, 71);
+}
+.by{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width:768px){
+.here{
+    text-align: center;
+}
+.button{
+   margin-left: 230px;
+}
+.text2{
+   padding-top: 80px;
+}
+.three{
+    display: flex;
+    margin-left: 2px;
+    margin-right: 11px;
+}
+.three1{
+    height: 120px;
+
+}
+.on{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.allimages{
+justify-content: space-between;
+}
+.allimages {
+padding-top: 50px;
+}
+.grey{
+    height:1550px;
+}
+.cust{
+display: flex;
+}
+.five1{
+    margin-right: 15px;
+}
+.purple{
+  height:480px;
+}
+.happy{
+    margin-left: 60px;
+}
+.threediv{
+    display: flex;
+    justify-content: space-between;
+}
+.taxi{
+    margin-right:80px;
+}
+.flynext{
+    padding-top: 90px;
+}
+/* .color{
+    padding:30px;
+} */
+/* .color1{
+    padding:20px;
+    width:60px;
+    height: 90px;
+} */
+.why{
+    margin-left: 30px;
+}
+.gre{
+    margin-left: 30px;  
+}
+.service{
+    height:400px;
+}
+.air{
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width:992px){
+
+
+
+.here{
+height: 600px;
+}
+.text2{
+    margin-top:60px;
+    padding-top: 160px;
+}
+  .three{
+    margin-left: 50px;
+   padding-top:70px
+} 
+/* .color1{
+    padding:20px;
+    height: 90px;
+} */
+.purple{
+    height:450px;
+  }
+.grey{
+    height:1250px
+}
+}
+@media (min-width:1200px){
+.three{
+    margin-left: 230px;
+}
+.five{
+    width: 25%;
+}
+.five1{
+    width: 25%;
+}
+
+/* .color{
+    height:300px;
+    
+} */
+}

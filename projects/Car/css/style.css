@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.nav-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    
+
+}
+.list{
+    margin-top: 10px;
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+    display: none;
+    
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    color: red;
+}
+.number{
+    color: red;
+    font-size: 20px;
+    outline: 1px dashed rgb(248, 98, 98);
+    padding: 10px;
+}
+.number:hover{
+    color: black;
+}
+.here{
+    background-image: url(../css/images/one.jpg);
+    color: white;
+    text-align: center;
+    height: 500px;
+    background-size:cover;
+}
+    
+
+.text{
+    margin-top: 60px;
+    padding-top: 60px;
+
+}
+
+.text3{
+    text-align:center;
+    
+    padding:30px
+
+}
+.type{
+border-radius: 50px;
+background-color: rgb(238, 211, 211);
+height: 30px;
+width: 90%;
+margin-left: 5%;
+
+}
+.button1{
+    border-radius: 50px;
+    background-color:red;
+    height: 30px;
+    width:90%;
+    margin-left: 1%;
+    margin-top: 20px;
+}
+.white{
+    margin-top: 70px;
+}
+
+.line{
+    text-align: center;
+    margin-left: 20px;
+}
+.line1{
+    font-size: 20px;
+}
+.who{
+    color: red;
+}
+.line2{
+    font-size: 12px;
+}
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+        line-height: 1.8em;
+    
+}
+.us{
+    color: red;
+    text-decoration: none;
+}
+.wel{
+    font-size:22px;
+}
+.to{
+    text-transform: capitalize;
+}
+.learn{
+    text-decoration: none;
+}
+.img {
+    border-radius:50%;
+}
+/* .fordiv:{
+     margin-left: 20px;
+    margin-right: 20px;
+} */
+.image{
+    margin-top: 20px;
+}
+.image img{
+   width:100%;
+   height:250px;
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px 5px red;
+}
+.what{
+    width:100%;
+    height: 3100px;
+    margin-top: 35px;
+    background-color: rgb(235, 235, 238);
+}
+.we{
+    margin-top: 20px;
+    text-align: center;
+}
+.red{
+    color: red;
+}
+.our{
+    text-align: center;
+}
+.color{
+    height: 500px;
+    margin-bottom:20px;
+    background-color: white;
+}
+.serviceimg{
+    width:100%;
+    height:200px;
+ }
+.airtext{
+    text-align:center;
+    margin-top: 30px;
+} 
+.more{
+    text-align: center;
+    border-radius: 30px;
+    padding:5px;
+    width: 130px;
+    
+    border: 1px rgb(245, 97, 97) solid;
+} 
+.more:hover{
+    background-color:rgb(245, 53, 53);}
+
+.background{
+    width: 100%;
+    height: 400px;
+    background-image: url(../css/images/1\ \(1\).jpg);
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+   /* padding-top: 200px; */
+}
+.drive
+{color:red;
+padding-top: 120px;}
+.h3{
+    color: white;
+}
+.duis{
+    color: white;
+}
+.drive{
+    color:red
+}
+.see{
+    width: 100%;
+   padding-top: 20px;
+    text-align: center;
+   
+}
+.wh{
+    color:red;
+}
+.h3{
+    color: white;
+}
+.febrit{
+    width: 80%;
+    margin-left: 10%;
+    height:220px;
+    text-align: center;
+    border:2px solid rgb(228, 205, 205);
+    border-radius: 10PX;
+   padding:20px;
+   margin-top: 60px;
+   box-shadow: -2px -2px 13px 1px rgb(182, 167, 167);
+    margin-top: 80px;
+    font-size: 15px;
+
+} 
+.ship{
+    font-size: 10px;
+}
+.lor{
+    text-align: justify;
+    font-size: 13px;
+}
+.manimg{
+    height: 100px;
+    width: 100px;
+    margin-top:-60px;
+    margin-left:60px;
+    
+}
+/* .lor{
+text-align: justify;
+} */
+.man{
+    border-radius: 50%;
+}
+
+.box{
+    height: 100px;
+    width: 170px;
+    text-align: center;
+    margin-left:60px;
+    margin-top: 40px;
+    border: 1px solid rgb(226, 219, 219);
+}
+.cer{
+    margin-top: 30px;
+}
+.total{
+    color: grey;
+}
+.box:hover {
+    border-color: red;
+}
+.low{
+    color: red;
+    font-size: 40px;
+  /* padding-top: 40px; */
+}
+.hoverrr{
+    width:120px;
+    height: 90px;
+    margin-left: 80px;
+    text-align: center;
+    border: 1px solid rgb(226, 219, 219);
+
+}
+.since{
+    width: 100%;
+    height: 1000px;
+}
+.mayu{
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    text-align: center;}
+.prices{
+    text-align:justify;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+
+/* .footer{
+    margin-top:450px
+} */
+.fas{
+    margin-top: 30px;
+}
+/* body{
+overflow-x: hidden;
+} */
+
+
+
+@media (min-width:768px){
+
+    .image img{
+        height:350px;
+    }
+    .here{
+        height:550px
+    }
+    .text{
+        padding-top: 100px;
+    }
+    .your{
+        position: relative;
+        display: flex;
+    }
+   .type{
+    border-radius: 50px;
+    padding-right: 160px;
+    background-color: rgb(170, 169, 169);
+    height: 30px;
+    width: 70%;
+    margin-left: 200px;
+    
+    }
+    .button1{
+        border-radius: 50px;
+        background-color:red;
+       
+        width:30%;
+      
+        margin-right: 180px;
+        margin-top: 00px;
+    }
+    .text3{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .what{
+   margin-top:95px;
+   padding-top: 20px;
+   height: 1700px;}
+/* .pink{
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+.color{
+    border:2px,solid white;
+    box-shadow: -2px -2px 5px 5px rgb(192, 192, 247);
+}
+   .image img{
+    height:500px;}
+.background{
+    height: 600px;
+    margin-top: -200px;
+}
+
+
+.duis{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.see{
+   padding-top: 40px;
+}
+.onn{
+    display: flex;
+}
+.febrit{
+   margin-left: 1px;
+   padding: 1px;
+}
+.drive{
+    padding-top: 190px;
+}
+.manimg{
+    margin-left: 65px;
+}
+.box{
+    margin-left: 75px;
+}
+ .since{
+    height: 480px;}
+  
+.zero{
+    margin-right: 260px;
+}
+
+.mayu{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.footer{
+    margin-top: 280px;
+}
+
+
+}
+
+
+
+@media(min-width:992px){
+.what{
+    height: 1300px;}
+ .since{
+    height: 300px;
+ }
+ .drive{
+    margin-top: 200px;
+ }  
+ .manimg{
+    margin-left: 100px;
+}
+.box{
+    margin-left: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
